@@ -31,6 +31,7 @@ public class Frame {
 			return true;
 		} 
 		else
+			
 		return false;
 	}
 	
@@ -41,8 +42,10 @@ public class Frame {
 		if (firstThrow==10 && secondThrow==10)
 		{
 		 return true;
+		 
 		}
 		else
+			
 		return false;
 	}
 }
