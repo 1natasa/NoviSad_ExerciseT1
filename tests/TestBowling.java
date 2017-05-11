@@ -8,5 +8,11 @@ public class TestBowling {
 	public void test() {
 		fail("Not yet implemented");
 	}
-
+	@Test
+	public void Da_li_je_strike()
+	{
+		BowlingGame game = new BowlingGame();
+		Frame frejm= new Frame(10, 0);
+		assertTrue("Jeste stike", frejm.isStrike());
+	}
 }

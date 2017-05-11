@@ -8,3 +8,4 @@ RefactoringAction 1494526498335 TestBowling.java RENAME Da_li_=>void Da_li_je_ F
 RefactoringAction 1494526500348 TestBowling.java RENAME Da_li_je_=>void Da_li_je_strike FIELD
 RefactoringAction 1494526501371 TestBowling.java RENAME Da_li_je_strike=>void Da_li_je_strike() METHOD
 EditAction 1494526716582 BowlingGame.java 737 4 2 0
+EditAction 1494526726763 TestBowling.java 334 2 4 1
