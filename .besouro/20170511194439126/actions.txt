@@ -18,3 +18,9 @@ RefactoringAction 1494526800742 TestBowling.java RENAME Da_li_=>void Da_li_je_ F
 RefactoringAction 1494526801751 TestBowling.java RENAME Da_li_je_=>void Da_li_je_spa FIELD
 RefactoringAction 1494526803261 TestBowling.java RENAME Da_li_je_spa=>void Da_li_je_spare() METHOD
 EditAction 1494526861658 Frame.java 901 6 8 0
+UnitTestCaseAction 1494526870739 TestBowling.java FAIL
+UnitTestSessionAction 1494526870741 TestBowling.java FAIL
+RefactoringAction 1494526894587 TestBowling.java ADD void DSa FIELD
+RefactoringAction 1494526896100 TestBowling.java RENAME DSa=>void Da_ FIELD
+RefactoringAction 1494526900115 TestBowling.java REMOVE Da_ FIELD
+EditAction 1494526954856 Frame.java 891 6 8 0
