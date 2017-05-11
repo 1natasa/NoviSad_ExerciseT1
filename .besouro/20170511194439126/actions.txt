@@ -44,3 +44,26 @@ EditAction 1494527718341 TestBowling.java 908 5 13 4
 UnitTestCaseAction 1494527730443 TestBowling.java FAIL
 UnitTestSessionAction 1494527730445 TestBowling.java FAIL
 EditAction 1494527833230 TestBowling.java 974 5 15 4
+UnitTestCaseAction 1494527851856 TestBowling.java FAIL
+UnitTestSessionAction 1494527851858 TestBowling.java FAIL
+RefactoringAction 1494528001149 BowlingGame.java ADD int bonus_rez FIELD
+CompilationAction 1494528160531 BowlingGame.java
+CompilationAction 1494528160598 BowlingGame.java
+CompilationAction 1494528160601 BowlingGame.java
+RefactoringAction 1494528751601 TestBowling.java ADD void da_li_ FIELD
+RefactoringAction 1494528756122 TestBowling.java RENAME da_li_=>void da_li_daje_bonus FIELD
+RefactoringAction 1494528760639 TestBowling.java RENAME da_li_daje_bonus=>void da_li_daje_bonus() METHOD
+RefactoringAction 1494529209412 BowlingGame.java ADD void rez_za FIELD
+RefactoringAction 1494529211426 BowlingGame.java RENAME rez_za=>void rez_za_frame() METHOD
+RefactoringAction 1494529234011 BowlingGame.java RENAME rez_za_frame()=>void rez_za_frame(int, int) METHOD
+RefactoringAction 1494529263072 BowlingGame.java RENAME bonus_rez=>int bonus_rez1 FIELD
+RefactoringAction 1494529270096 BowlingGame.java ADD int bonus_rez1/2 FIELD
+RefactoringAction 1494529271106 BowlingGame.java RENAME bonus_rez1/2=>int bonus_rez FIELD
+RefactoringAction 1494529272119 BowlingGame.java RENAME bonus_rez=>int bonus_rez2 FIELD
+RefactoringAction 1494529338902 BowlingGame.java REMOVE rez_za_frame(int, int) METHOD
+RefactoringAction 1494529338904 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1494529341419 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1494529374478 BowlingGame.java ADD void da FIELD
+RefactoringAction 1494529376990 BowlingGame.java REMOVE da FIELD
+RefactoringAction 1494529385514 BowlingGame.java ADD void bacanje_br_10 FIELD
+RefactoringAction 1494529388025 BowlingGame.java RENAME bacanje_br_10=>void bacanje_br_10() METHOD
