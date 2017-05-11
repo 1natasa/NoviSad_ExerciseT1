@@ -20,7 +20,7 @@ public class TestBowling {
 	public void Da_li_je_spare() throws BowlingException 
 	{
 		Frame frejm= new Frame(10,0);
-		assertTrue(frejm.isStrike());
+		assertTrue(frejm.isSpare());
 	}
 	
 	@Test
