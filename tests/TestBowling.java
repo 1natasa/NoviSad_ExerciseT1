@@ -35,10 +35,13 @@ public class TestBowling {
 	public void da_li_dodaje_frame()
 	{
 		BowlingGame game= new BowlingGame();
-		Frame frame=new Frame(10, 0);
-		game.addFrame(frame);
+		Frame frame1=new Frame(10, 0);
+		Frame frame2= new Frame (5,4);
+		game.addFrame(frame1);
 		
-		int ocekivani_br_frame=1;
-		assertEquals(ocekivani_br_frame,1);
+		game.addFrame(frame2);
+		
+		int ocekivani_br_frame=2;
+		assertEquals(ocekivani_br_frame,2);
 	}
 }
