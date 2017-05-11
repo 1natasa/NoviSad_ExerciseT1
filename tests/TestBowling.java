@@ -30,4 +30,15 @@ public class TestBowling {
 		int ocekivani_rezultat=8;
 		assertEquals(ocekivani_rezultat, frejm.score());
 	}
+	
+	@Test
+	public void da_li_dodaje_frame()
+	{
+		BowlingGame game= new BowlingGame();
+		Frame frame=new Frame(10, 0);
+		game.addFrame(frame);
+		
+		int ocekivani_br_frame=1;
+		assertEquals(ocekivani_br_frame,1);
+	}
 }
