@@ -1,3 +1,10 @@
 FileOpenedAction 1494524699989 Frame.java 671 6 7 0
 FileOpenedAction 1494524803903 BowlingGame.java 708 4 1 0
 EditAction 1494526210361 Frame.java 886 6 8 0
+FileOpenedAction 1494526466217 TestBowling.java 165 1 1 0
+RefactoringAction 1494526495310 TestBowling.java ADD void Da FIELD
+RefactoringAction 1494526497320 TestBowling.java RENAME Da=>void Da_li_ FIELD
+RefactoringAction 1494526498335 TestBowling.java RENAME Da_li_=>void Da_li_je_ FIELD
+RefactoringAction 1494526500348 TestBowling.java RENAME Da_li_je_=>void Da_li_je_strike FIELD
+RefactoringAction 1494526501371 TestBowling.java RENAME Da_li_je_strike=>void Da_li_je_strike() METHOD
+EditAction 1494526716582 BowlingGame.java 737 4 2 0
