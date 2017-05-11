@@ -26,3 +26,6 @@ RefactoringAction 1494526900115 TestBowling.java REMOVE Da_ FIELD
 EditAction 1494526954856 Frame.java 891 6 8 0
 RefactoringAction 1494526980709 TestBowling.java ADD void Da_li_dobro_racuna_rezultat_frejma() METHOD
 EditAction 1494527078645 TestBowling.java 687 4 8 3
+UnitTestCaseAction 1494527089810 TestBowling.java FAIL
+UnitTestSessionAction 1494527089812 TestBowling.java FAIL
+EditAction 1494527114990 Frame.java 884 6 8 0
