@@ -22,4 +22,12 @@ public class TestBowling {
 		Frame frejm= new Frame(10,10);
 		assertTrue(frejm.isStrike());
 	}
+	
+	@Test
+	public void Da_li_dobro_racuna_rezultat_frejma() throws BowlingException
+	{
+		Frame frejm= new Frame(5, 3);
+		int ocekivani_rezultat=8;
+		assertEquals(ocekivani_rezultat, frejm.score());
+	}
 }
